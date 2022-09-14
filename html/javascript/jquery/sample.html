@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>Document</title>
+        <meta charset="UTF-8">
+        <meta name="viewport"  content="width=device-width,initial-scale=1.0">
+    </head>
+    <body>
+        <button id="btn">clicme</button>
+        <div style="width:350px;height:400px;background-color: chartreuse;"id="box">
+
+        </div>
+        <input type="text" id="inp">
+        <label style="display:none;"id="error">enter min 4 char</label>
+        <input type="text" id="">
+        <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+            $("#btn").click(function(){
+                $("#box").toggle(3000)
+            })
+            $("#btn").mouseenter(function(){
+                $(this).css({"background":"red"})
+            })
+            $("#inp").blur(function(){
+                var text=$(this).val()
+                if(text.length<4){
+                    //alert("enter min characters")
+                    $("#error").show()
+                    }else{
+                        $("#error").hide()
+                    }
+                
+            })
+            
+        })
+    </script>
+    </body>
+</html>

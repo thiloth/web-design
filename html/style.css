@@ -1,0 +1,33 @@
+.button{
+    color:#fff;
+    
+}
+#para1{
+    color:mediumvioletred;
+    background-color: orangered;
+}
+#para2{
+    background-color: olivedrab;
+}
+.para3class{
+    background-color: orangered;
+}
+div{
+    width:200px;
+    height:200px;
+    background: palegreen;
+    border:5px solid rgb(116, 16, 16);
+    border-collapse: collapse;
+    margin-left: 0px;
+    margin-top: 0px;
+    padding-left:0px;
+    padding-top: 0px;
+    
+}
+.box{
+    margin:5px;
+    border:solid black;
+    height: 100px;
+    width: 100px;
+    background: brown;
+}

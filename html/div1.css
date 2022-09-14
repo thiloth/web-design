@@ -1,0 +1,22 @@
+.header{
+    width:100%;
+    background: orange;
+    height: 150px;
+}
+.left-section{
+    width: 200px;
+    float: left;
+    height: 400px;
+    background: pink;
+}
+.right-section{
+    width: 1000px;
+    float:left;
+    height: 400;
+    background: red;
+}
+.footer{
+    height: 400px;
+    width: 100%;
+    background:royalblue;
+}
